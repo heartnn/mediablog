@@ -8,12 +8,12 @@ layout: default
 <section class="meta">
 <hr/>
 <span class="time">
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+  发布时间: <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
 </span>
 {% if page.categories %}
 <br />
 <span class="categories">
-  分类：
+  分类: 
   {% for cat in page.categories %}
   <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
   {% endfor %}
@@ -22,7 +22,7 @@ layout: default
 {% if page.tags %}
 <br />
 <span class="tags">
-  标签：
+  标签: 
   {% for tag in page.tags %}
   <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
   {% endfor %}
