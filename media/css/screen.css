@@ -213,7 +213,7 @@ dl .meta {
 
 }
 
-.listing-item time{color:#999999;}
+.listing-item time{color:#999999;font-family:"Courier New","Lucida Console",Courier,Monaco,monospace;}
 .listing-seperator{font-weight:bold;}
 
 
