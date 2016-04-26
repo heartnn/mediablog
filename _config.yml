@@ -1,6 +1,7 @@
-#markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:day/:title/
 url: http://logz.tk
 author: heartnn
-pygments: true
+highlighter: rouge
+timezone: Asia/Shanghai
 paginate: 24
